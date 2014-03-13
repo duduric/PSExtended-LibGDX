@@ -18,7 +18,7 @@ public class Phantasy extends VergeEngine {
 	}
 	
 	public static void autoexec() {
-		setAppName("Phantasy Star Extended v1.00");
+		setAppName("Phantasy Star Extended v1.01");
 	}
 
 

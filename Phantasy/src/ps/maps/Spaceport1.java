@@ -84,6 +84,7 @@ public class Spaceport1 {
 				PSMenu.StextLast(getString("Spaceport_People_Cop_TakePassport"));
 				PSGame.getParty().removeItem(getItem(OriginalItem.Quest_Passport));
 			}
+			EntFinish();
 			return;
 		}
 		

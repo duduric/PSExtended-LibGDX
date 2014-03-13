@@ -1,4 +1,4 @@
-PHANTASY STAR EXTENDED v1.00
+PHANTASY STAR EXTENDED v1.01
 ============================
 
 HOW TO PLAY
@@ -10,7 +10,14 @@ HOW TO PLAY
 	<Shift> -> Menu button
 	<Esc> -> Cancel button
 
-2. Running:
+2. Downloading:
+
+You need to download just the Phantasy.jar file. 
+
+If for any reason it's downloading with 0Kb in the Github repository, please proceed to download the .zip
+going some folders back in the repository. I'm investigating why it's happening with some people. 
+
+3. Running:
 
 You need the Java Runtime Envinronment (JRE) installed. 
 Double-click on the .jar file, or run on the command line the following command:
@@ -84,3 +91,8 @@ NEXT VERSIONS
 - Button swapping (keyboard and/or joystick)
 - Talk option
 - FM Music
+
+
+Changelog
+=========
+Version 1.01 -> Fixed a bug when robotcops confiscate the passport.

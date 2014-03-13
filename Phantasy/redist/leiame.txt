@@ -1,4 +1,4 @@
-PHANTASY STAR EXTENDED v1.00
+PHANTASY STAR EXTENDED v1.01
 ============================
 
 COMO JOGAR
@@ -10,7 +10,14 @@ COMO JOGAR
 	<Shift> -> Botão de menu
 	<Esc> -> Botão de cancelar
 
-2. Executando o jogo:
+2. Baixando o jogo:
+
+Você precisa baixar somente o arquivo Phantasy.jar.
+
+Se por algum motivo o download no repositório do Github estiver com 0Kb, faça o download do projeto (.zip)
+voltando alguns níveis no repositório. Estou investigando o porquê disso estar acontecendo com algumas pessoas.
+
+3. Executando o jogo:
 
 Você precisa ter instalada a Java Runtime Envinronment (JRE). 
 Clique duas vezes no arquivo .jar ou rode o seguinte comando em linha de comando:
@@ -84,3 +91,9 @@ PARA AS PRÓXIMAS VERSÕES
 - Customização dos botões (tanto teclado quanto joystick)
 - Opção 'Conversar'
 - Música do Chip FM
+
+
+Revisões
+========
+Versão 1.01 -> Corrigido um bug quando os robotcops confiscam o passaporte.
+
