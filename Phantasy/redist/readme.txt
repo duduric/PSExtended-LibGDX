@@ -1,4 +1,4 @@
-PHANTASY STAR EXTENDED v1.01
+PHANTASY STAR EXTENDED v1.02
 ============================
 
 HOW TO PLAY
@@ -96,3 +96,5 @@ NEXT VERSIONS
 Changelog
 =========
 Version 1.01 -> Fixed a bug when robotcops confiscate the passport.
+Version 1.02 -> Fixed a passageway in Baya Malay Tower. If you want to finish the game, you should get this version. 
+				Fixed the Mota Shooter enemy name.

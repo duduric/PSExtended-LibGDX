@@ -1,4 +1,4 @@
-PHANTASY STAR EXTENDED v1.01
+PHANTASY STAR EXTENDED v1.02
 ============================
 
 COMO JOGAR
@@ -96,4 +96,5 @@ PARA AS PRÓXIMAS VERSÕES
 Revisões
 ========
 Versão 1.01 -> Corrigido um bug quando os robotcops confiscam o passaporte.
-
+Versão 1.02 -> Corrigida uma passagem na Torre de Baya Malay. Se você quer terminar o jogo, use essa versão.
+				Corrigido o nome do inimigo "Mota Shooter".
