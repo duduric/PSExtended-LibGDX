@@ -143,7 +143,6 @@ public class Title {
 		else if(opt == 5) {
 			PSGame.initPSGame(GameType.PS_ARENA);
 			PhantasyArena.PhantasyArenaGame();
-			Script.playmusic(load("music/Title.vgz"));
 			startmap();
 		}
 		return true;

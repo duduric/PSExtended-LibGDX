@@ -45,7 +45,7 @@ public class PSMenu {
 	
 	public enum Cancellable {TRUE, FALSE};
 	public enum Position {TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_ROW};
-	public enum Outcome { NO_FADE, FADE, FADE_HOUSE, FADE_DUNGEON}; 
+	public enum Outcome { NO_FADE, FADE, FADE_HOUSE, FADE_DUNGEON, FADE_DUNGEON_SCENE}; 
 	
 	public static void initPSMenu(ScreenSize screenSize) {
 		
@@ -181,7 +181,7 @@ public class PSMenu {
 		setentitiespaused(true);
 		PSMenu.menuOff();
 		
-		if(scene == Scene.DUNGEON || scene == Scene.SCREEN || scene == Scene.BLACK) {
+		if(scene == Scene.DUNGEON || scene == Scene.SCREEN || scene == Scene.BLACK || scene == Scene.ALTAR) {
 			screen.fadeIn(25, false);
 		} else if (scene == Scene.CORRIDOR || scene == Scene.SCREEN_NOFADE) {
 			// do nothing
@@ -200,7 +200,7 @@ public class PSMenu {
 			case SHOP_HAND_VILLAGE: 	case SHOP_WEAPON_VILLAGE:	case HOSPITAL_VILLAGE:
 			case CHURCH_VILLAGE:		case RUINED_HOUSE:			case SPACESHIP:
 			case PALACE:				case VILLA:					case CITY:
-			case TITLE:					case ALTAR:					case ENDING:
+			case TITLE:					case ENDING:
 
 				instance.back = PSGame.getImage(scene);
 				instance.outcome = Outcome.FADE_HOUSE;
@@ -209,12 +209,6 @@ public class PSMenu {
 			case CAVE:					case FOREST:				case FIELDS:			case DESERT:				
 			case ARTIC:					case PINES:					case SKY:				
 
-				instance.back = PSGame.getImage(scene);
-				instance.outcome = Outcome.FADE;
-				break;
-				
-			case BAYA:				
-				instance.setdelay(0);
 				instance.back = PSGame.getImage(scene);
 				instance.outcome = Outcome.FADE;
 				break;
@@ -236,10 +230,15 @@ public class PSMenu {
 				instance.outcome = Outcome.FADE;
 				break;				
 				
-			case DUNGEON:					// instance.back already set	
+			case DUNGEON:			// instance.back already set	
 				instance.outcome = Outcome.FADE_DUNGEON;
 				break;
 			
+			case BAYA:		case ALTAR:	
+				instance.back = PSGame.getImage(scene);
+				instance.outcome = Outcome.FADE_DUNGEON_SCENE;
+				break;
+				
 			case CORRIDOR: 				// instance.back already set
 				instance.outcome = Outcome.NO_FADE;
 				break;
@@ -295,6 +294,11 @@ public class PSMenu {
 				screen.fadeOut(25, false);
 				PSDungeon.warpBack(2);
 			}
+			if(outcome == Outcome.FADE_DUNGEON_SCENE) {
+				instance.back = screen;
+				screen.fadeOut(25, false);
+				PSDungeon.warpBack(2);
+			}			
 		}
 		PSMenu.menuOn();
 	}

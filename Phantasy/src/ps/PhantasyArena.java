@@ -154,7 +154,7 @@ public class PhantasyArena {
 					outcome = battle.battleScene(Scene.FIELDS, PSGame.getEnemy(PS1Enemy.SKULL_EN), 3);
 					break;
 				case 126:
-					outcome = battle.battleScene(Scene.LAVA, PSGame.getEnemy(PS1Enemy.MARMAN), 6);
+					outcome = battle.battleScene(Scene.LAVA, PSGame.getEnemy(PS1Enemy.MARMAN), 5);
 					break;
 				case 127:
 					outcome = battle.battleScene(Scene.DESERT, PSGame.getEnemy(PS1Enemy.LICH), 4);
@@ -354,7 +354,8 @@ public class PhantasyArena {
 					continue;
 			}
 
-
+			PSMenu.menuOff();
+			
 			if(outcome == BattleOutcome.DEFEAT) {
 				System.out.println("Battle lost!");
 				break;

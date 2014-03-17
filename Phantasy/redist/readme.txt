@@ -1,4 +1,4 @@
-PHANTASY STAR EXTENDED v1.02
+PHANTASY STAR EXTENDED v1.03
 ============================
 
 HOW TO PLAY
@@ -95,6 +95,19 @@ NEXT VERSIONS
 
 Changelog
 =========
-Version 1.01 -> Fixed a bug when robotcops confiscate the passport.
-Version 1.02 -> Fixed a passageway in Baya Malay Tower. If you want to finish the game, you should get this version. 
-				Fixed the Mota Shooter enemy name.
+Version 1.01
+- Fixed a bug when robotcops confiscate the passport.
+
+Version 1.02
+- Fixed a passageway in Baya Malay Tower. If you want to finish the game, you should get this version. 
+- Fixed the Mota Shooter enemy name.
+
+Version 1.03 (Thanks to Dênis Cruz, Mário Augusto and Fogeltje!)
+- Fixed Menu use (Shift) on PS Arena
+- Fixed the Enemy_Drainer_Crab enemy name.
+- PelorieMate changed to Monomate in some dialogs
+- Fixed the secret stairs direction in Naharu 
+- After returning to Air Castle, fixed a castle screen bug
+- Restored the trap in Baya Malay
+- Fixed the Lassic battle (afterwards)
+- Some dungeons are not dark anymore

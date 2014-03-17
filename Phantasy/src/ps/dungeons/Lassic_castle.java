@@ -8,6 +8,8 @@ import static ps.oo.PSGame.getYesNo;
 import java.util.ArrayList;
 import java.util.List;
 
+import domain.VImage;
+
 import ps.PSDungeon;
 import ps.oo.Battler;
 import ps.oo.City;
@@ -60,6 +62,7 @@ public class Lassic_castle {
 	}
 	
 	public static void lassic() {
+		PSMenu.setMapOff();
 		if(!PSGame.hasFlag(Flags.DEFEAT_LASSIC)) {
 			Enemy lassic = PSGame.getEnemy(PS1Enemy.LASSIC);
 			PSMenu.startScene(Scene.ALTAR, lassic.getChr());
@@ -90,7 +93,6 @@ public class Lassic_castle {
 			PSMenu.instance.waitAnyButton();
 			PSMenu.endScene();
 		}
-
 	}
 
 	public static void stairs_1_down() {

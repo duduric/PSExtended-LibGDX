@@ -57,7 +57,7 @@ public class Baya_malay {
 		dungeon.setFixedEnemies(3, new PS1Enemy[]{PS1Enemy.HORSEMAN, PS1Enemy.MAGICIAN});
 		dungeon.setFixedEnemies(-1, new PS1Enemy[]{PS1Enemy.MAGICIAN, PS1Enemy.HORSEMAN});
 		dungeon.setFixedEnemies(-2, new PS1Enemy[]{PS1Enemy.NANO_COP, PS1Enemy.ANDROCOP});
-		dungeon.setFixedEnemies(-3, new PS1Enemy[]{PS1Enemy.WYVERN, PS1Enemy.GIANTFLY});		
+		dungeon.setFixedEnemies(-3, new PS1Enemy[]{PS1Enemy.WYVERN, PS1Enemy.GIANTFLY});	
 		
 		
 		dungeon.startDungeon();
@@ -303,7 +303,7 @@ public class Baya_malay {
 		PSGame.trapRoutine(Trap.BAYA_MALAY_TRAP3, Trap.INFO_BAYA_MALAY_TRAP3, 20, 12);
 	}
 	public static void trap4() {
-		PSGame.trapRoutine(Trap.BAYA_MALAY_TRAP4, Trap.INFO_BAYA_MALAY_TRAP4, 1, 22);
+		PSGame.trapRoutine(Trap.BAYA_MALAY_TRAP4, Trap.INFO_BAYA_MALAY_TRAP4, 12, 53);
 	}
 	
 	public static void oldman() {
@@ -438,6 +438,7 @@ public class Baya_malay {
 				boolean flyToBaya = false;
 
 				if(PSGame.hasFlag(Flags.DEFEAT_GOLD_DRAKE)) {
+					PSMenu.instance.pop();
 					flyToBaya = true;
 				}
 				else
@@ -500,7 +501,7 @@ public class Baya_malay {
 
 			}
 			else {
-				PSMenu.instance.pop();
+				PSMenu.instance.pop(); // castle
 				PSMenu.endScene();
 			}
 		}

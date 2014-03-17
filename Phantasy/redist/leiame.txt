@@ -1,4 +1,4 @@
-PHANTASY STAR EXTENDED v1.02
+PHANTASY STAR EXTENDED v1.03
 ============================
 
 COMO JOGAR
@@ -95,6 +95,26 @@ PARA AS PRÓXIMAS VERSÕES
 
 Revisões
 ========
-Versão 1.01 -> Corrigido um bug quando os robotcops confiscam o passaporte.
-Versão 1.02 -> Corrigida uma passagem na Torre de Baya Malay. Se você quer terminar o jogo, use essa versão.
-				Corrigido o nome do inimigo "Mota Shooter".
+Versão 1.01
+- Corrigido um bug quando os robotcops confiscam o passaporte.
+
+Versão 1.02
+- Corrigida uma passagem na Torre de Baya Malay. Se você quer terminar o jogo, use essa versão.
+- Corrigido o nome do inimigo "Mota Shooter".
+
+Versão 1.03 (Agradecimentos a Dênis Cruz, Mário Augusto e Fogeltje!)
+- Corrigido uso do Menu (Shift) no PS Arena.
+- Corrigido o nome do inimigo "Enemy_Drainer_Crab"
+- PelorieMate trocado para Monomate em alguns diálogos
+- Corrigida a direção da escada secreta de Naharu
+- Após voltar ao Air Castle, corrigido um bug de exibição
+- Restaurada a armadilha de Baya Malay
+- Corrigido o encontro com Lassic
+- Alguns calabouços não ficam mais escuros
+
+
+
+
+
+
+				
